@@ -1,25 +1,83 @@
 gdjs.SettingsCode = {};
 gdjs.SettingsCode.GDbackgroundObjects1= [];
 gdjs.SettingsCode.GDbackgroundObjects2= [];
+gdjs.SettingsCode.GDbackgroundObjects3= [];
 gdjs.SettingsCode.GDbutton_95cardBackThemeObjects1= [];
 gdjs.SettingsCode.GDbutton_95cardBackThemeObjects2= [];
+gdjs.SettingsCode.GDbutton_95cardBackThemeObjects3= [];
 gdjs.SettingsCode.GDbutton_95tableBackgroundObjects1= [];
 gdjs.SettingsCode.GDbutton_95tableBackgroundObjects2= [];
+gdjs.SettingsCode.GDbutton_95tableBackgroundObjects3= [];
 gdjs.SettingsCode.GDcardBackTheme_95descriptionObjects1= [];
 gdjs.SettingsCode.GDcardBackTheme_95descriptionObjects2= [];
+gdjs.SettingsCode.GDcardBackTheme_95descriptionObjects3= [];
 gdjs.SettingsCode.GDtableBackground_95descriptionObjects1= [];
 gdjs.SettingsCode.GDtableBackground_95descriptionObjects2= [];
+gdjs.SettingsCode.GDtableBackground_95descriptionObjects3= [];
 gdjs.SettingsCode.GDjokerMode_95descriptionObjects1= [];
 gdjs.SettingsCode.GDjokerMode_95descriptionObjects2= [];
+gdjs.SettingsCode.GDjokerMode_95descriptionObjects3= [];
 gdjs.SettingsCode.GDjokerModeObjects1= [];
 gdjs.SettingsCode.GDjokerModeObjects2= [];
+gdjs.SettingsCode.GDjokerModeObjects3= [];
 gdjs.SettingsCode.GDtextualToggleSwitchObjects1= [];
 gdjs.SettingsCode.GDtextualToggleSwitchObjects2= [];
+gdjs.SettingsCode.GDtextualToggleSwitchObjects3= [];
 gdjs.SettingsCode.GDbutton_95BACKObjects1= [];
 gdjs.SettingsCode.GDbutton_95BACKObjects2= [];
+gdjs.SettingsCode.GDbutton_95BACKObjects3= [];
 
 
 gdjs.SettingsCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(1), false);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("textualToggleSwitch"), gdjs.SettingsCode.GDtextualToggleSwitchObjects2);
+{for(var i = 0, len = gdjs.SettingsCode.GDtextualToggleSwitchObjects2.length ;i < len;++i) {
+    gdjs.SettingsCode.GDtextualToggleSwitchObjects2[i].SetChecked(false, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(1), true);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("textualToggleSwitch"), gdjs.SettingsCode.GDtextualToggleSwitchObjects1);
+{for(var i = 0, len = gdjs.SettingsCode.GDtextualToggleSwitchObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDtextualToggleSwitchObjects1[i].SetChecked(true, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+};gdjs.SettingsCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.SettingsCode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
 
 {
 
@@ -133,24 +191,33 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.SettingsCode.GDbackgroundObjects1.length = 0;
 gdjs.SettingsCode.GDbackgroundObjects2.length = 0;
+gdjs.SettingsCode.GDbackgroundObjects3.length = 0;
 gdjs.SettingsCode.GDbutton_95cardBackThemeObjects1.length = 0;
 gdjs.SettingsCode.GDbutton_95cardBackThemeObjects2.length = 0;
+gdjs.SettingsCode.GDbutton_95cardBackThemeObjects3.length = 0;
 gdjs.SettingsCode.GDbutton_95tableBackgroundObjects1.length = 0;
 gdjs.SettingsCode.GDbutton_95tableBackgroundObjects2.length = 0;
+gdjs.SettingsCode.GDbutton_95tableBackgroundObjects3.length = 0;
 gdjs.SettingsCode.GDcardBackTheme_95descriptionObjects1.length = 0;
 gdjs.SettingsCode.GDcardBackTheme_95descriptionObjects2.length = 0;
+gdjs.SettingsCode.GDcardBackTheme_95descriptionObjects3.length = 0;
 gdjs.SettingsCode.GDtableBackground_95descriptionObjects1.length = 0;
 gdjs.SettingsCode.GDtableBackground_95descriptionObjects2.length = 0;
+gdjs.SettingsCode.GDtableBackground_95descriptionObjects3.length = 0;
 gdjs.SettingsCode.GDjokerMode_95descriptionObjects1.length = 0;
 gdjs.SettingsCode.GDjokerMode_95descriptionObjects2.length = 0;
+gdjs.SettingsCode.GDjokerMode_95descriptionObjects3.length = 0;
 gdjs.SettingsCode.GDjokerModeObjects1.length = 0;
 gdjs.SettingsCode.GDjokerModeObjects2.length = 0;
+gdjs.SettingsCode.GDjokerModeObjects3.length = 0;
 gdjs.SettingsCode.GDtextualToggleSwitchObjects1.length = 0;
 gdjs.SettingsCode.GDtextualToggleSwitchObjects2.length = 0;
+gdjs.SettingsCode.GDtextualToggleSwitchObjects3.length = 0;
 gdjs.SettingsCode.GDbutton_95BACKObjects1.length = 0;
 gdjs.SettingsCode.GDbutton_95BACKObjects2.length = 0;
+gdjs.SettingsCode.GDbutton_95BACKObjects3.length = 0;
 
-gdjs.SettingsCode.eventsList0(runtimeScene);
+gdjs.SettingsCode.eventsList1(runtimeScene);
 
 return;
 
