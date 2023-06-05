@@ -1,4 +1,6 @@
 gdjs.Settings_58_32Card_32Back_32ThemeCode = {};
+gdjs.Settings_58_32Card_32Back_32ThemeCode.GDbutton_95returnToMenuObjects1= [];
+gdjs.Settings_58_32Card_32Back_32ThemeCode.GDbutton_95returnToMenuObjects2= [];
 gdjs.Settings_58_32Card_32Back_32ThemeCode.GDbackgroundObjects1= [];
 gdjs.Settings_58_32Card_32Back_32ThemeCode.GDbackgroundObjects2= [];
 gdjs.Settings_58_32Card_32Back_32ThemeCode.GDcardBackTheme_95descriptionObjects1= [];
@@ -354,6 +356,8 @@ if (isConditionTrue_0) {
 gdjs.Settings_58_32Card_32Back_32ThemeCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.Settings_58_32Card_32Back_32ThemeCode.GDbutton_95returnToMenuObjects1.length = 0;
+gdjs.Settings_58_32Card_32Back_32ThemeCode.GDbutton_95returnToMenuObjects2.length = 0;
 gdjs.Settings_58_32Card_32Back_32ThemeCode.GDbackgroundObjects1.length = 0;
 gdjs.Settings_58_32Card_32Back_32ThemeCode.GDbackgroundObjects2.length = 0;
 gdjs.Settings_58_32Card_32Back_32ThemeCode.GDcardBackTheme_95descriptionObjects1.length = 0;

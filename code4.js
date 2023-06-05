@@ -1,4 +1,7 @@
 gdjs.SettingsCode = {};
+gdjs.SettingsCode.GDbutton_95returnToMenuObjects1= [];
+gdjs.SettingsCode.GDbutton_95returnToMenuObjects2= [];
+gdjs.SettingsCode.GDbutton_95returnToMenuObjects3= [];
 gdjs.SettingsCode.GDbackgroundObjects1= [];
 gdjs.SettingsCode.GDbackgroundObjects2= [];
 gdjs.SettingsCode.GDbackgroundObjects3= [];
@@ -189,6 +192,9 @@ if (isConditionTrue_0) {
 gdjs.SettingsCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.SettingsCode.GDbutton_95returnToMenuObjects1.length = 0;
+gdjs.SettingsCode.GDbutton_95returnToMenuObjects2.length = 0;
+gdjs.SettingsCode.GDbutton_95returnToMenuObjects3.length = 0;
 gdjs.SettingsCode.GDbackgroundObjects1.length = 0;
 gdjs.SettingsCode.GDbackgroundObjects2.length = 0;
 gdjs.SettingsCode.GDbackgroundObjects3.length = 0;

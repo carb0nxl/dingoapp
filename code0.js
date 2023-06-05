@@ -1,4 +1,6 @@
 gdjs.Main_32menuCode = {};
+gdjs.Main_32menuCode.GDbutton_95returnToMenuObjects1= [];
+gdjs.Main_32menuCode.GDbutton_95returnToMenuObjects2= [];
 gdjs.Main_32menuCode.GDmenuBackgroundLoopObjects1= [];
 gdjs.Main_32menuCode.GDmenuBackgroundLoopObjects2= [];
 gdjs.Main_32menuCode.GDdeafbits_95logoObjects1= [];
@@ -19,8 +21,6 @@ gdjs.Main_32menuCode.GDdingoTitleObjects2= [];
 
 gdjs.Main_32menuCode.mapOfGDgdjs_46Main_9532menuCode_46GDSTARTObjects1Objects = Hashtable.newFrom({"START": gdjs.Main_32menuCode.GDSTARTObjects1});
 gdjs.Main_32menuCode.mapOfGDgdjs_46Main_9532menuCode_46GDSETTINGSObjects1Objects = Hashtable.newFrom({"SETTINGS": gdjs.Main_32menuCode.GDSETTINGSObjects1});
-gdjs.Main_32menuCode.mapOfGDgdjs_46Main_9532menuCode_46GDHELPObjects1Objects = Hashtable.newFrom({"HELP": gdjs.Main_32menuCode.GDHELPObjects1});
-gdjs.Main_32menuCode.mapOfGDgdjs_46Main_9532menuCode_46GDABOUTObjects1Objects = Hashtable.newFrom({"ABOUT": gdjs.Main_32menuCode.GDABOUTObjects1});
 gdjs.Main_32menuCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -77,36 +77,14 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("HELP"), gdjs.Main_32menuCode.GDHELPObjects1);
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32menuCode.mapOfGDgdjs_46Main_9532menuCode_46GDHELPObjects1Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Help", false);
-}}
 
 }
 
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("ABOUT"), gdjs.Main_32menuCode.GDABOUTObjects1);
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Main_32menuCode.mapOfGDgdjs_46Main_9532menuCode_46GDABOUTObjects1Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "", false);
-}}
 
 }
 
@@ -116,6 +94,8 @@ if (isConditionTrue_0) {
 gdjs.Main_32menuCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.Main_32menuCode.GDbutton_95returnToMenuObjects1.length = 0;
+gdjs.Main_32menuCode.GDbutton_95returnToMenuObjects2.length = 0;
 gdjs.Main_32menuCode.GDmenuBackgroundLoopObjects1.length = 0;
 gdjs.Main_32menuCode.GDmenuBackgroundLoopObjects2.length = 0;
 gdjs.Main_32menuCode.GDdeafbits_95logoObjects1.length = 0;
