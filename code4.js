@@ -139,7 +139,7 @@ for (var i = 0, k = 0, l = gdjs.SettingsCode.GDbutton_95tableBackgroundObjects1.
 }
 gdjs.SettingsCode.GDbutton_95tableBackgroundObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Settings: Table background", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Settings: Table theme", false);
 }}
 
 }

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ArrayTools__SplitString !== "undefined") {
 gdjs.evtsExt__ArrayTools__SplitString = {};
 
 
-gdjs.evtsExt__ArrayTools__SplitString.userFunc0xbcc920 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__SplitString.userFunc0x910b60 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument("arr"));
 const str = eventsFunctionContext.getArgument("str");
@@ -27,7 +27,7 @@ gdjs.evtsExt__ArrayTools__SplitString.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__ArrayTools__SplitString.userFunc0xbcc920(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__SplitString.userFunc0x910b60(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
